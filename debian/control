@@ -1,0 +1,36 @@
+Source: pint
+Maintainer: VRT Systems <support@vrt.com.au>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.1
+
+
+
+Package: python-pint
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Physical quantities module
+ Pint: makes units easy
+ ======================
+ .
+ Pint is a Python package to define, operate and manipulate physical
+ quantities: the product of a numerical value and a unit of measurement.
+ It allows arithmetic operations between them and conversions from and
+ to different units.
+ .
+ It is distributed with a comprehensive list of physical units, prefixes
+ and constants. Due to its modular design, you can extend (or even rewrite!)
+ the complete list without changing the source code. It supports a lot of
+ numpy mathematical operations **without monkey patching or wrapping numpy**.
+ .
+ It has a complete test coverage. It runs in Python 2.6 and 3.X
+ with no other dependency. It is licensed under BSD.
+ .
+ It is extremely easy and natural to use:
+ .
+ .. code-block:: python
+ .
+
+
+
